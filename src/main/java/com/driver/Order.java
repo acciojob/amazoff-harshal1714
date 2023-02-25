@@ -15,13 +15,9 @@ public class Order {
         this.deliveryTime = hour * 60 + min;
     }
 
-    public String getId()
-    {
+    public String getId() {
         return id;
     }
 
-    public int getDeliveryTime()
-    {
-        return deliveryTime;
-    }
+    public int getDeliveryTime() {return deliveryTime;}
 }
